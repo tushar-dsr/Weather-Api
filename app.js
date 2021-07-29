@@ -5,7 +5,7 @@ const app = express();
 app.use(express.urlencoded({extended: true}));
 const port = 3000;
 app.listen(port, function () {
-  console.log("I am running baby!");
+  console.log("Server is running!");
 });
 
 app.get("/", function (req, res) {
